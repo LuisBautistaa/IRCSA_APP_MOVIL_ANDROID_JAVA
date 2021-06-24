@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#202732"
+    android:layout_marginTop="5dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+       >
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/nombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/nombre1"
+                android:textColor="#A7FFEB"
+                android:textSize="21sp"
+                />
+
+            <TextView
+                android:id="@+id/textViewNombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/nombre"
+                android:textColor="#FFFFFF"
+                android:textSize="17sp"
+                />
+
+            <TextView
+                android:id="@+id/caracteristicas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/caracteristicas1"
+                android:layout_marginTop="20dp"
+                android:textColor="#A7FFEB"
+                android:textSize="21sp"
+                />
+
+            <TextView
+                android:id="@+id/textViewCaracteristicas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/caracteristicas"
+                android:textColor="#FFFFFF"
+                android:textSize="17sp"
+
+                />
+
+            <TextView
+                android:id="@+id/cuidados"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/cuidados1"
+                android:layout_marginTop="20dp"
+                android:textColor="#A7FFEB"
+                android:textSize="21sp"
+                />
+
+            <TextView
+                android:id="@+id/textViewCuidados"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/cuidados"
+                android:textColor="#FFFFFF"
+                android:textSize="17sp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:layout_marginRight="15dp"
+
+            >
+
+            <Button
+            android:id="@+id/btnEditar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/actualizar"
+            android:background="@drawable/button_rounded_border"
+            android:textColor="#FFFFFF"
+            />
+
+            <Button
+                android:id="@+id/btnEliminar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/eliminar"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_rounded_border_red"
+                android:textColor="#FFFFFF"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#222222"
+        android:layout_marginTop="10dp"
+
+        />
+
+
+
+
+</LinearLayout>
+

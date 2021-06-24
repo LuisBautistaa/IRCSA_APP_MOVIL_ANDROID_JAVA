@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "674091767841",
+    "project_id": "ircsa-475b6",
+    "storage_bucket": "ircsa-475b6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:674091767841:android:dccfc78fe344dd783f6b60",
+        "android_client_info": {
+          "package_name": "com.example.ircsa2019"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "674091767841-2oton47cqea489iqlc0kst3htr784dou.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ircsa2019",
+            "certificate_hash": "c25b4177ccac5234226c4e256571291fcd928540"
+          }
+        },
+        {
+          "client_id": "674091767841-2l7hnl7rdmo1pkqmhtq4l3754m61cl9l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKlmLTYrSMLZqicyIZ-rPNMq71Dw2n7OM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "674091767841-2l7hnl7rdmo1pkqmhtq4l3754m61cl9l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

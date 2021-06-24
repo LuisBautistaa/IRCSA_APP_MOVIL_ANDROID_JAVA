@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".catalagoPlantasActivity">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerPlantas"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="#202732"
+        android:padding="10dp"
+        >
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:background="@drawable/button_rounded_border"
+            android:textColor="#FFFFFF"
+            android:layout_marginRight="5dp"
+            android:text="@string/menu"
+            />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:background="@drawable/button_rounded_border_red"
+            android:textColor="#FFFFFF"
+            android:text="@string/regresar"
+            />
+
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:textAlignment="center"
+            android:background="@drawable/button_rounded_red"
+            android:textColor="#FFFFFF"
+            android:text="@string/exit"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#202732"
+    tools:context=".DatosPersonales">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textColor="#FFFFFF"
+        android:text="Mtto Datos Personales"
+        android:textAlignment="center"
+        />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textColor="#A7FFEB"
+            android:text="Tipo de Persona"
+            android:textColorHint="#616161"
+            />
+
+        <Spinner
+            android:id="@+id/spTIpPers"
+            android:layout_width="201dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#FFFFFF"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        android:layout_marginTop="5dp"
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="25dp"
+            android:textColor="#CCFF90"
+            android:text="Datos Generales" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/spNombre"
+                android:layout_width="132dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#FFFFFF"/>
+
+            <Spinner
+                android:id="@+id/spApePat"
+                android:layout_width="132dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#FFFFFF"/>
+
+            <Spinner
+                android:id="@+id/spApeMat"
+                android:layout_width="132dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#FFFFFF"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="132dp"
+                android:layout_height="wrap_content"
+                android:text="NOMBRE"
+                android:textColor="#A7FFEB"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="132dp"
+                android:layout_height="wrap_content"
+                android:text="APE PATERNO"
+                android:textColor="#A7FFEB"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="132dp"
+                android:layout_height="wrap_content"
+                android:text="APE MATERNO"
+                android:textColor="#A7FFEB"
+                android:layout_weight="1"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/txtRfc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="RFC"
+                android:textColorHint="#616161"
+                android:textColor="#FFFFFF"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/txtCurp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="CURP"
+                android:textColorHint="#616161"
+                android:textColor="#FFFFFF"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/txtFecNac"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="F. Nacimiento"
+                android:textColorHint="#616161"
+                android:textColor="#FFFFFF"
+                android:inputType="textPersonName" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:textColor="#CCFF90"
+            android:text="Direccion" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/spCalle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#FFFFFF"
+                />
+
+            <Spinner
+                android:id="@+id/spColonia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#FFFFFF"/>
+
+            <Spinner
+                android:id="@+id/spMunicipio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#FFFFFF"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="132dp"
+                android:layout_height="wrap_content"
+                android:text="CALLE"
+                android:textColor="#A7FFEB"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="132dp"
+                android:layout_height="wrap_content"
+                android:text="COLONIA"
+                android:textColor="#A7FFEB"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="132dp"
+                android:layout_height="wrap_content"
+                android:text="MUNICIPIO"
+                android:textColor="#A7FFEB"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/spEstado"
+                android:layout_width="210dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textColor="#FFFFFF"/>
+
+            <EditText
+                android:id="@+id/txtNum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="Numero"
+                android:textColorHint="#616161"
+                android:textColor="#FFFFFF"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/txtCodPos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="Cod Postal"
+                android:textColorHint="#616161"
+                android:textColor="#FFFFFF"
+                android:inputType="textPersonName" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="132dp"
+                android:layout_height="wrap_content"
+                android:text="ESTADO"
+                android:textColor="#A7FFEB"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:padding="2dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnAlta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_rounded"
+            android:layout_marginRight="5dp"
+            android:text="Alta" />
+
+        <Button
+            android:id="@+id/btnConsultar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_rounded"
+            android:text="Consultar" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:gravity="center"
+        android:padding="2dp"
+
+        >
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:background="@drawable/button_rounded_border"
+            android:textColor="#FFFFFF"
+            android:layout_marginRight="5dp"
+            android:text="@string/menu"
+            />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:background="@drawable/button_rounded_border_red"
+            android:textColor="#FFFFFF"
+            android:text="@string/regresar"
+            />
+
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:textAlignment="center"
+            android:background="@drawable/button_rounded_red"
+            android:textColor="#FFFFFF"
+            android:text="@string/exit"
+            />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

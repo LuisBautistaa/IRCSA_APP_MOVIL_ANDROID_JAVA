@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">IRCSA</string>
+    <string name="enter_email">Ingrese el Correo Electrónico</string>
+    <string name="enter_password">Ingrese la Contraseña</string>
+    <string name="registrar">REGISTRAR</string>
+    <string name="login">INICIAR SESIÓN</string>
+    <string name="welcome">BIENVENIDO</string>
+    <string name="regresar">REGRESAR</string>
+    <string name="exit">SALIR</string>
+    <string name="nombre">Nombre de la planta</string>
+    <string name="caracteristicas">Características</string>
+    <string name="cuidados">Cuidados</string>
+    <string name="nombre1">NOMBRE DE LA PLANTA</string>
+    <string name="caracteristicas1">CARACTERÍSTICAS</string>
+    <string name="cuidados1">CUIDADOS</string>
+    <string name="actualizar">Actualizar</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="actualizarplanta">ACTUALIZAR DATOS</string>
+    <string name="password">RESTABLECER CONTRASEÑA</string>
+    <string name="menu">MENÚ PRINCIPAL</string>
+
+</resources>
+

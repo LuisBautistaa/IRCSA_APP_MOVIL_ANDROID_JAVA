@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#202732"
+    >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textColor="#FFFFFF"
+        android:text="Mtto Datos Personales"
+        android:textAlignment="center"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textColor="#A7FFEB"
+            android:text="Tipo de Persona" />
+
+        <Spinner
+            android:id="@+id/spTIpPersAc"
+            android:layout_width="201dp"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="25dp"
+            android:textColor="#CCFF90"
+            android:text="Datos Generales" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/spNombreAc"
+                android:layout_width="132dp"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:layout_weight="1" />
+
+            <Spinner
+                android:id="@+id/spApePatAc"
+                android:layout_width="132dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#FFFFFF"/>
+
+            <Spinner
+                android:id="@+id/spApeMatAc"
+                android:layout_width="132dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#FFFFFF"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="132dp"
+                android:layout_height="wrap_content"
+                android:text="NOMBRE"
+                android:textColor="#A7FFEB"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="132dp"
+                android:layout_height="wrap_content"
+                android:text="APE PATERNO"
+                android:textColor="#A7FFEB"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="132dp"
+                android:layout_height="wrap_content"
+                android:text="APE MATERNO"
+                android:textColor="#A7FFEB"
+                android:layout_weight="1"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/txtRfcAc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="RFC"
+                android:textColorHint="#616161"
+                android:textColor="#FFFFFF"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/txtCurpAc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="CURP"
+                android:textColorHint="#616161"
+                android:textColor="#FFFFFF"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/txtFecNacAc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="F. Nacimiento"
+                android:textColorHint="#616161"
+                android:textColor="#FFFFFF"
+                android:inputType="textPersonName" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:textColor="#CCFF90"
+            android:text="Direccion" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/spCalleAc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#FFFFFF"/>
+
+            <Spinner
+                android:id="@+id/spColoniaAc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:layout_weight="1" />
+
+            <Spinner
+                android:id="@+id/spMunicipioAc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="132dp"
+                android:layout_height="wrap_content"
+                android:text="CALLE"
+                android:textColor="#A7FFEB"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="132dp"
+                android:layout_height="wrap_content"
+                android:text="COLONIA"
+                android:textColor="#A7FFEB"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="132dp"
+                android:layout_height="wrap_content"
+                android:text="MUNICIPIO"
+                android:textColor="#A7FFEB"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/spEstadoAc"
+                android:layout_width="210dp"
+                android:layout_height="match_parent"
+                android:textColor="#FFFFFF"
+                android:layout_weight="1" />
+
+            <EditText
+                android:id="@+id/txtNumAc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="Numero"
+                android:textColorHint="#616161"
+                android:textColor="#FFFFFF"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/txtCodPosAc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="Cod Postal"
+                android:textColorHint="#616161"
+                android:textColor="#FFFFFF"
+                android:inputType="textPersonName" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="132dp"
+                android:layout_height="wrap_content"
+                android:text="ESTADO"
+                android:textColor="#A7FFEB"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnActualizarAc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_rounded"
+            android:text="Modificar" />
+
+        <Button
+            android:id="@+id/btnCancelarAc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_rounded"
+            android:text="Cancelar" />
+        <Button
+            android:id="@+id/btnExitAc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_rounded"
+            android:text="Regresar" />
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

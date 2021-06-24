@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="personas">
+        <item>Selec. Opción</item>
+        <item>Agricultor</item>
+        <item>supervisor</item>
+        <item>Encargado</item>
+
+    </string-array>
+
+    <string-array name="nombre">
+        <item>Selec. Opción</item>
+        <item>Luis</item>
+        <item>Humberto</item>
+        <item>Angel</item>
+        <item>Javier</item>
+    </string-array>
+
+    <string-array name="Apellidos">
+        <item>Selec. Opción</item>
+        <item>Bautista</item>
+        <item>Sanchez</item>
+        <item>Alfonzo</item>
+        <item>Lopez</item>
+    </string-array>
+
+    <string-array name="calles">
+        <item>Selec. Opción</item>
+        <item>Los Pinos</item>
+        <item>Benito</item>
+        <item>Berrio</item>
+        <item>Sasro</item>
+    </string-array>
+
+    <string-array name="colonias">
+        <item>Selec. Opción</item>
+        <item>Allende</item>
+        <item>La pilita</item>
+        <item>Guadalupe</item>
+        <item>San Senbas</item>
+    </string-array>
+
+    <string-array name="municipios">
+        <item>Selec. Opción</item>
+        <item>Trinitaria</item>
+        <item>Comitan</item>
+        <item>San Cris</item>
+        <item>Tuxtla</item>
+    </string-array>
+
+    <string-array name="estados">
+        <item>Selec. Opción</item>
+        <item>Chiapas</item>
+        <item>Nayarit</item>
+        <item>Yucatan</item>
+        <item>La Paz</item>
+    </string-array>
+
+
+</resources>

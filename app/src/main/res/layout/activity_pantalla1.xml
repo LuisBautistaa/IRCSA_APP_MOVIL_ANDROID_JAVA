@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#202732"
+    android:orientation="vertical"
+    tools:context=".Pantalla1">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_margin="15dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/TVtexto1"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:text="@string/welcome"
+            android:textColor="#FFFFFF"
+            android:layout_marginRight="10dp"
+        />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/icono"
+            android:layout_marginLeft="10dp"
+            />
+    </LinearLayout>
+
+
+<Button
+    android:id="@+id/button1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="18dp"
+    android:gravity="center"
+    android:background="@drawable/button_rounded_white"
+    android:text="CATÁLOGO DE CULTIVOS" />
+
+
+<Button
+    android:id="@+id/button2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="18dp"
+    android:gravity="center"
+    android:background="@drawable/button_rounded_white"
+    android:text="Mantenimiento de Datos Personales" />
+
+<Button
+    android:id="@+id/button3"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="18dp"
+    android:background="@drawable/button_rounded_white"
+    android:gravity="center"
+    android:text="Mantenimiento de Usuarios" />
+
+<Button
+    android:id="@+id/button4"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="18dp"
+    android:background="@drawable/button_rounded_white"
+    android:gravity="center"
+    android:text="Temperatura" />
+<!--
+<Button
+    android:id="@+id/button5"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="15dp"
+    android:background="@drawable/button_rounded_white"
+    android:gravity="center"
+    android:text="PERSONAL" />
+-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_margin="15dp"
+        android:gravity="center"
+        >
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:textAlignment="center"
+            android:background="@drawable/button_rounded"
+            android:textColor="#FFFFFF"
+            android:text="CERRAR SESIÓN" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textAlignment="center"
+            android:background="@drawable/button_rounded_red"
+            android:textColor="#FFFFFF"
+            android:text="@string/exit"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
